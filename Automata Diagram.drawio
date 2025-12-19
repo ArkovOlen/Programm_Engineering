@@ -1,0 +1,139 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7">
+  <diagram name="Страница-1" id="IER7yJyJihLuD3OTk_wV">
+    <mxGraphModel dx="1978" dy="1171" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="ellipse;fillColor=strokeColor;" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="276" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="rounded=1;arcSize=20;strokeWidth=2" value="Неавторизован" vertex="1">
+          <mxGeometry height="40" width="127" x="220" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="rounded=1;arcSize=20;strokeWidth=2" value="Авторизация" vertex="1">
+          <mxGeometry height="40" width="110" x="228" y="186" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="rounded=1;arcSize=20;strokeWidth=2" value="Авторизован" vertex="1">
+          <mxGeometry height="40" width="109" x="228" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="rounded=1;arcSize=20;strokeWidth=2" value="ВыборКурса" vertex="1">
+          <mxGeometry height="40" width="105" x="230" y="414" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="rounded=1;arcSize=20;strokeWidth=2" value="ПросмотрМатериалов" vertex="1">
+          <mxGeometry height="40" width="176" x="195" y="528" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" style="rounded=1;arcSize=20;strokeWidth=2" value="ВыполнениеЗадания" vertex="1">
+          <mxGeometry height="40" width="167" x="8" y="642" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="1" style="rounded=1;arcSize=20;strokeWidth=2" value="ОтправкаЗадания" vertex="1">
+          <mxGeometry height="40" width="145" x="19" y="756" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="1" style="rounded=1;arcSize=20;strokeWidth=2" value="ОжиданиеПроверки" vertex="1">
+          <mxGeometry height="40" width="163" x="10" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="11" parent="1" style="rounded=1;arcSize=20;strokeWidth=2" value="ПолучениеОценки" vertex="1">
+          <mxGeometry height="40" width="151" x="112" y="984" as="geometry" />
+        </mxCell>
+        <mxCell id="12" parent="1" style="rounded=1;arcSize=20;strokeWidth=2" value="Тестирование" vertex="1">
+          <mxGeometry height="40" width="120" x="416" y="642" as="geometry" />
+        </mxCell>
+        <mxCell id="13" parent="1" style="rounded=1;arcSize=20;strokeWidth=2" value="ЗавершениеКурса" vertex="1">
+          <mxGeometry height="40" width="149" x="402" y="756" as="geometry" />
+        </mxCell>
+        <mxCell id="14" parent="1" style="rounded=1;arcSize=20;strokeWidth=2" value="Выход" vertex="1">
+          <mxGeometry height="40" width="62" x="445" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="15" parent="1" style="ellipse;shape=endState;fillColor=strokeColor;" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="469" y="997" as="geometry" />
+        </mxCell>
+        <mxCell id="16" edge="1" parent="1" source="2" style="curved=1;startArrow=none;;exitX=0.49;exitY=1;entryX=0.5;entryY=0;" target="3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" edge="1" parent="1" source="3" style="curved=1;startArrow=none;;exitX=0.28;exitY=1;entryX=0.25;entryY=0;" target="4" value="ввод_логина_и_пароля">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="204" y="149" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" edge="1" parent="1" source="4" style="curved=1;startArrow=none;;exitX=0.75;exitY=0;entryX=0.71;entryY=1;" target="3" value="ошибка_входа">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="362" y="149" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" edge="1" parent="1" source="4" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="5" value="успешный_вход">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="20" edge="1" parent="1" source="5" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="6" value="открыть_курсы">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" edge="1" parent="1" source="6" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="7" value="курс_выбран">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" edge="1" parent="1" source="7" style="curved=1;startArrow=none;;exitX=0.12;exitY=1;entryX=0.5;entryY=0;" target="8" value="есть_задание">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="92" y="605" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23" edge="1" parent="1" source="8" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="9" value="задание_выполнено">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24" edge="1" parent="1" source="9" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="10" value="отправлено">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="25" edge="1" parent="1" source="10" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.28;entryY=0;" target="11" value="проверено">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="92" y="947" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="26" edge="1" parent="1" source="11" style="curved=1;startArrow=none;;exitX=0.72;exitY=0;entryX=0.5;entryY=1;" target="7" value="продолжить_обучение">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="283" y="947" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="27" edge="1" parent="1" source="7" style="curved=1;startArrow=none;;exitX=0.88;exitY=1;entryX=0.5;entryY=0;" target="12" value="есть_тест">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="476" y="605" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28" edge="1" parent="1" source="12" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="13" value="тест_пройден">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="29" edge="1" parent="1" source="13" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="14" value="курс_завершен">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30" edge="1" parent="1" source="14" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.51;entryY=0;" target="15" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
